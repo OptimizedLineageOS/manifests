@@ -2,12 +2,14 @@
 <manifest>
   
   <!-- Base -->
-  <remove-project name="LineageOS/android_frameworks_base"/>
+  <remove-project name="LineageOS/android_frameworks_base" path="frameworks/base" />
   <project path="frameworks/base" name="OptimizedLineageOS/android_frameworks_base" remote="github" revision="opt-cm-14.1" />
   
   <!--Vendors-->
-  <remove-project name="LineageOS/android_vendor_cm"/>
+  <remove-project name="LineageOS/android_vendor_cm" path="vendor/cm" />
   <project path="vendor/cm" name="OptimizedLineageOS/android_vendor_cm" remote="github" revision="opt-cm-14.1" />
-  <project path="vendor/jdc" name="OptimizedLineageOS/android_vendor_jdc" remote="github" revision="opt-cm-14.1" />
+  <project path="vendor/jdc" name="OptimizedLineageOS/android_vendor_jdc" remote="github" revision="opt-cm-14.1" >
+     <copyfile src="build.sh" dest="build.sh" />
+  </project>
   
 </manifest>
