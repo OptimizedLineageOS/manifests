@@ -1,15 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
+  
   <!-- Base -->
   <remove-project name="LineageOS/android_frameworks_base" path="frameworks/base" />
   <project path="frameworks/base" name="OptimizedLineageOS/android_frameworks_base" remote="github" revision="opt-cm-14.1" />
+  
+  <!--Build-->
+  <remove-project name="LineageOS/android_build" path="build" />
+  <project path="build" name="OptimizedLineageOS/android_build"  remote="github" revision="opt-cm-14.1" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project> 
   
   <!--Vendors-->
   <remove-project name="LineageOS/android_vendor_cm" path="vendor/cm" />
   <project path="vendor/cm" name="OptimizedLineageOS/android_vendor_cm" remote="github" revision="opt-cm-14.1" />
   <project path="vendor/jdc" name="OptimizedLineageOS/android_vendor_jdc" remote="github" revision="opt-cm-14.1" >
      <copyfile src="build.sh" dest="build.sh" />
+  </project>
+  
+   <!--Needed for complete build dir -->
+  <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
+  <project path="build/kati" name="LineageOS/android_build_kati" groups="pdk,tradefed" />
+  <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" remote="aosp" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   
 </manifest>
