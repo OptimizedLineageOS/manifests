@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+  <!-- Base -->
+  <remove-project name="LineageOS/android_frameworks_base"/>
+  <project path="frameworks/base" name="OptimizedLineageOS/android_frameworks_base" remote="github" revision="opt-cm-14.1" />
+  
+</manifest>
