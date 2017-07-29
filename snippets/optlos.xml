@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
+  <!--ART-->
+  <remove-project name="LineageOS/android_art" path="art"/>
+  <project path="art" name="OptimizedLineageOS/android_art" remote="github" revision="opt-cm-14.1" />
   
   <!-- Base -->
   <remove-project name="LineageOS/android_frameworks_base" path="frameworks/base" />
