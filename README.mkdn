@@ -1,5 +1,6 @@
-Optimized Lineage 14.1 
 <img src="https://raw.githubusercontent.com/AOSP-JF-MM/platform_manifest/aosp-7.1.2/JFDCNT.png">
+
+Optimized Lineage 14.1 
 ---------------
 (ex. Optimized CyanogenMod builds)
 
