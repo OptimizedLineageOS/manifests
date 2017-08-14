@@ -19,14 +19,16 @@
   <remove-project name="LineageOS/android_system_core" path="system/core" />
   <project path="system/core" name="OptimizedLineageOS/android_system_core" remote="github" revision="opt-cm-14.1" />
   
-  <!--Packages-->
+  <!--Packages and telephony-->
   <remove-project name="LineageOS/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" />
   <remove-project name="LineageOS/android_packages_apps_Settings" path="packages/apps/Settings" />
   <remove-project name="LineageOS/android_packages_services_Telephony" path="packages/services/Telephony" />
+  <remove-project name="LineageOS/android_frameworks_opt_telephony" path="frameworks/opt/telephony" />
   <project path="packages/apps/SetupWizard" name="OptimizedLineageOS/android_packages_apps_SetupWizard" remote="github" revision="opt-cm-14.1" />
   <project path="packages/apps/Settings" name="OptimizedLineageOS/android_packages_apps_Settings" remote="github" revision="opt-cm-14.1" />
   <project path="packages/services/Telephony" name="OptimizedLineageOS/android_packages_services_Telephony" remote="github" revision="opt-cm-14.1" />
-  
+  <project path="frameworks/opt/telephony" name="OptimizedLineageOS/android_frameworks_opt_telephony" remote="github" revision="opt-cm-14.1" />
+
   <!--Vendors-->
   <remove-project name="LineageOS/android_vendor_cm" path="vendor/cm" />
   <project path="vendor/cm" name="OptimizedLineageOS/android_vendor_cm" remote="github" revision="opt-cm-14.1" />
