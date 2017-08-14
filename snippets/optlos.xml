@@ -29,6 +29,9 @@
   <project path="packages/services/Telephony" name="OptimizedLineageOS/android_packages_services_Telephony" remote="github" revision="opt-cm-14.1" />
   <project path="frameworks/opt/telephony" name="OptimizedLineageOS/android_frameworks_opt_telephony" remote="github" revision="opt-cm-14.1" />
 
+  <!--JDC Settings-->
+  <project path="packages/apps/JDCSettings" name="OptimizedLineageOS/android_packages_apps_JDCSettings" remote="github" revision="opt-cm-14.1" />
+
   <!--Vendors-->
   <remove-project name="LineageOS/android_vendor_cm" path="vendor/cm" />
   <project path="vendor/cm" name="OptimizedLineageOS/android_vendor_cm" remote="github" revision="opt-cm-14.1" />
