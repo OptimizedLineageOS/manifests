@@ -3,7 +3,7 @@
 
   <!--OnePlus 5-->
   <!--Lightning kernel-->
-  <project name="nikhil18/Lightning_kernel_oneplus5" path="kernel/oneplus/lightning" remote="github" revision="lightning-los" />
+  <project name="dkati/Lightning_kernel_oneplus5" path="kernel/oneplus/lightning" remote="github" revision="opt-cm-14.1" />
   <!--anykernel-->
   <project name="nikhil18/anykernel-op5-los" path="kernel/oneplus/anykernel" remote="github" revision="master" />
   
