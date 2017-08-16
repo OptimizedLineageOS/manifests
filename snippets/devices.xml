@@ -2,6 +2,9 @@
 <manifest>
 
   <!--OnePlus 5-->
+  <!--Lightning kernel-->
+  <project name="nikhil18/Lightning_kernel_oneplus5" path="kernel/oneplus/lightning" remote="github" revision="lightning-los" />
+ 
   <remove-project name="LineageOS/android_hardware_qcom_audio"/>
   <project path="hardware/qcom/audio-caf/msm8998" name="OptimizedLineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8998" />
   <project path="kernel/oneplus/msm8998" name="LineageOS/android_kernel_oneplus_msm8998" revision="cm-14.1" />
