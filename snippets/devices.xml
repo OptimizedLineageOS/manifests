@@ -26,8 +26,9 @@
   <remove-project name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="OptimizedLineageOS/uber-aarch64-linux-android-4.9" revision="master" />
 
-  <!--Aroma-->
+  <!--Aroma and flashables-->
   <project name="OptimizedLineageOS/AromaInstaller" path="aroma" remote="github" revision="cheeseburger" />
+  <project name="OptimizedLineageOS/OptimizedCM-flashables" path="flashables" remote="github" revision="cheeseburger" />
   
   <!--Linaro TC for aarch64-->
   <!--<project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="aapav01/aarch64-linux-android-4.9-linaro" revision="master" /> -->
