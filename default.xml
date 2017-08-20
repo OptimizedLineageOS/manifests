@@ -499,5 +499,5 @@
 
   <include name="snippets/cm.xml" />
   <include name="snippets/optlos.xml" />
-  <include name="snippets/devices.xml" />
+  <include name="snippets/devices/cheeseburger.xml" />
 </manifest>
