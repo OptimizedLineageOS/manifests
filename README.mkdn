@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/AOSP-JF-MM/platform_manifest/aosp-7.1.2/JFDCNT.png">
+<img src="https://raw.githubusercontent.com/palmrom/manifests/opt-cm-14.1/palm.png">
 
 Palm ROM project
 ---------------
