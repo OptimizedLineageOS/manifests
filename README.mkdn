@@ -1,15 +1,14 @@
 <img src="https://raw.githubusercontent.com/AOSP-JF-MM/platform_manifest/aosp-7.1.2/JFDCNT.png">
 
-Optimized Lineage 14.1 
+Palm ROM project
 ---------------
-(ex. Optimized CyanogenMod builds)
 
 To get started with Android, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using our trees, use a command like this:
 
-    repo init -u git://github.com/OptimizedLineageOS/manifests.git -b opt-cm-14.1
+    repo init -u git://github.com/palmrom/manifests.git -b opt-cm-14.1
 
 Then to sync up:
 
