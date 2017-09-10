@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
+  <!--Common device settings-->
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="cm-14.1" />
+  
   <!--ART-->
   <remove-project name="LineageOS/android_art" path="art"/>
   <project path="art" name="Palmrom/android_art" remote="github" revision="opt-cm-14.1" />
