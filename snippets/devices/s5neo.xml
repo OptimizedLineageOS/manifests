@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="Exynos7580/android_device_samsung_s5neoltexx" path="device/samsung/s5neoltexx" remote="github" revision="cm-14.1" />
+
   <project name="Exynos7580/android_kernel_samsung_exynos7580-common" path="kernel/samsung/exynos7580-common" remote="github" revision="los-14.1" />
-  <project name="Exynos7580/android_device_samsung_exynos7580-common" path="device/samsung/exynos7580-common" remote="github" revision="los-14.1" />
   <project name="Exynos7580/android_hardware_samsung_slsi-cm_exynos7580" path="hardware/samsung_slsi-cm/exynos7580" remote="github" revision="cm-14.1" />
   <project name="Exynos7580/android_vendor_samsung_s5neoltexx" path="vendor/samsung/s5neoltexx" remote="github" revision="cm-14.1" />
   <project name="Exynos7580/android_vendor_samsung_exynos7580-common" path="vendor/samsung/exynos7580-common" remote="github" revision="los-14.1" />
@@ -12,4 +11,7 @@
   <project name="LineageOS/android_external_stlport" path="external/stlport" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_packages_apps_FlipFlap" path="packages/apps/FlipFlap" remote="github" revision="cm-14.1" />
+  
+  <project name="palmrom/android_device_samsung_exynos7580-common" path="device/samsung/exynos7580-common" remote="github" revision="opt-cm-14.1" />
+  <project name="palmrom/android_device_samsung_s5neoltexx" path="device/samsung/s5neoltexx" remote="github" revision="opt-cm-14.1" />
 </manifest>
