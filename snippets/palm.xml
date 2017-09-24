@@ -17,8 +17,8 @@
   <project path="frameworks/base" name="Palmrom/android_frameworks_base" remote="github" revision="opt-cm-14.1" />
   
   <!--AV-->
-  <remove-project name="LineageOS/android_frameworks_av" path="frameworks/base" />
-  <project path="frameworks/base" name="Palmrom/android_frameworks_av" remote="github" revision="opt-cm-14.1" />
+  <remove-project name="LineageOS/android_frameworks_av" path="frameworks/av" />
+  <project path="frameworks/av" name="Palmrom/android_frameworks_av" remote="github" revision="opt-cm-14.1" />
   
   <!--Build-->
   <remove-project name="LineageOS/android_build" path="build" />
