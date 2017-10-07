@@ -13,5 +13,5 @@
   <project name="LineageOS/android_packages_apps_FlipFlap" path="packages/apps/FlipFlap" remote="github" revision="cm-14.1" />
   
   <project name="palmrom/android_device_samsung_exynos7580-common" path="device/samsung/exynos7580-common" remote="github" revision="opt-cm-14.1" />
-  <project name="palmrom/android_device_samsung_s5neoltexx" path="device/samsung/s5neoltexx" remote="github" revision="opt-cm-14.1" />
+  <project name="Exynos7580/android_device_samsung_s5neoltexx" path="device/samsung/s5neoltexx" remote="github" revision="los-14.1" />
 </manifest>
