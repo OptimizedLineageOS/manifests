@@ -500,7 +500,6 @@
   <include name="snippets/lineage.xml" />
   <include name="snippets/palm.xml" />
   <include name="snippets/devices/cheeseburger.xml" />
-  <include name="snippets/devices/s5neo.xml" />
   
   <!--Needed for complete build dir -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
