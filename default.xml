@@ -568,5 +568,14 @@
     <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp" />
   </project>
   <!-- FINISH LINEAGE -->
+  
+  <!--Palm ROM-->
+  <project name="palmrom/AromaInstaller" path="aroma" remote="github" revision="cheeseburger" />
+  
+	<project name="LiquidRemix/android_kernel_oneplus_msm8998" path="kernel/oneplus/msm8998"  remote="liquid" />
+	<project name="LiquidRemix/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" remote="liquid" />
+  <project name="LiquidRemix/android_device_oppo_common" path="device/oppo/common" remote="github" remote="liquid" />
+  
+
 
 </manifest>
