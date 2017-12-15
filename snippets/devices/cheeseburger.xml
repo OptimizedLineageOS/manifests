@@ -17,7 +17,7 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="palmrom/uber-aarch64-linux-android-4.9" revision="master" />
 
   <!--Aroma and flashables-->
-  <project name="palmrom/AromaInstaller" path="aroma" remote="github" revision="cheeseburger" />
+  <project name="palmrom/AromaInstaller" path="aroma" remote="github" revision="nougat-op5" />
   
   <!--Linaro TC for aarch64-->
   <!--<project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="aapav01/aarch64-linux-android-4.9-linaro" revision="master" /> -->
