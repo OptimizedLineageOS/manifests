@@ -1,0 +1,17 @@
+<img src="https://raw.githubusercontent.com/palmrom/manifests/opt-cm-14.1/palm.png">
+
+Palm ROM project
+---------------
+
+To get started with Android, you'll need to get
+familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+
+To initialize your local repository using our trees, use a command like this:
+
+    repo init -u git://github.com/palmrom/manifests.git -b oreo-8.1
+
+Then to sync up:
+
+    repo sync
+
+
