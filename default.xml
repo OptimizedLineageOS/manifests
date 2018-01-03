@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?> <manifest>
-
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
 
@@ -27,7 +26,6 @@
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="compatibility/cdd" name="platform/compatibility/cdd" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
-  <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="developers/build" name="platform/developers/build" groups="developers" />
   <project path="development" name="platform/development" groups="developers,pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -505,6 +503,7 @@
 
   <!-- START LINEAGE -->
   <project path="build/kati" name="android_build_kati" groups="pdk,tradefed" remote="lineage" />
+  <project path="dalvik" name="android_dalvik" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="lineage" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="lineage" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="lineage" />
@@ -545,6 +544,7 @@
   <project path="hardware/qcom/media-caf/msm8960" name="android_hardware_qcom_media" groups="qcom,qcom_media,pdk" remote="lineage" revision="staging/lineage-15.1-caf-8960" />
   <project path="hardware/qcom/media-caf/msm8974" name="android_hardware_qcom_media" groups="qcom,qcom_media,pdk" remote="lineage" revision="staging/lineage-15.1-caf-8974" />
   <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" groups="qcom,qcom_media,pdk" remote="lineage" revision="lineage-15.0-caf-8996" />
+  <project path="hardware/qcom/power" name="android_hardware_qcom_power" groups="qcom,qcom_power" remote="lineage" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="lineage" />
   <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="lineage" revision="lineage-15.0-caf" />
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="lineage" />
@@ -557,6 +557,7 @@
   <project path="packages/apps/WallpaperPicker" name="android_packages_apps_WallpaperPicker" groups="pdk-fs" remote="lineage" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" groups="pdk-fs" remote="lineage" />
+  <project path="platform_testing" name="android_platform_testing" groups="pdk-fs,pdk-cw-fs,cts" remote="lineage" />
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="lineage" />
   <project path="system/media" name="android_system_media" groups="pdk" remote="lineage" />
   <project path="system/nfc" name="android_system_nfc" groups="pdk" remote="lineage" />
@@ -565,6 +566,7 @@
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="lineage" />
   <project path="system/tools/aidl" name="android_system_tools_aidl" groups="pdk" remote="lineage" />
   <project path="system/tools/hidl" name="android_system_tools_hidl" groups="pdk" remote="lineage" />
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="lineage" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="lineage" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="lineage" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="lineage" >
