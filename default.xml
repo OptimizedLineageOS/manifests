@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?> <manifest>
-  <remote  name="aosp"
+<?xml version="1.0" encoding="UTF-8"?> 
+<manifest>
+ <remote  name="aosp"
            fetch="https://android.googlesource.com" />
 
   <remote  name="bitbucket"
@@ -467,6 +468,7 @@
   <project path="bionic" name="android_bionic" groups="pdk" remote="liquid" />
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="liquid" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="liquid" />
+  <project path="external/DUtils" name="android_external_DUtils" remote="liquid" />
   <project path="external/skia" name="android_external_skia" groups="pdk,qcom_msm8x26" remote="liquid" />
   <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="liquid" />
   <project path="external/sqlite" name="android_external_sqlite" groups="pdk" remote="liquid" />
@@ -486,14 +488,18 @@
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="liquid" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" groups="pdk-fs" remote="liquid" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" groups="pdk-fs" remote="liquid" />
+  <project path="packages/apps/DUI" name="android_packages_apps_DUI" remote="liquid" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="liquid" />
+  <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="liquid" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="liquid" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="liquid" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" remote="liquid" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" groups="pdk-fs" remote="liquid" />
+  <project path="packages/apps/LiquidLounge" name="android_packages_apps_LiquidLounge" remote="liquid" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" groups="pdk-fs" remote="liquid" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="liquid" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="liquid" />
+  <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="liquid" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="liquid" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="liquid" />
   <project path="system/bt" name="android_system_bt" groups="pdk" remote="liquid" />
@@ -543,7 +549,7 @@
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" groups="qcom,pdk" remote="lineage" />
   <project path="hardware/qcom/media-caf/msm8960" name="android_hardware_qcom_media" groups="qcom,qcom_media,pdk" remote="lineage" revision="staging/lineage-15.1-caf-8960" />
   <project path="hardware/qcom/media-caf/msm8974" name="android_hardware_qcom_media" groups="qcom,qcom_media,pdk" remote="lineage" revision="staging/lineage-15.1-caf-8974" />
-  <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" groups="qcom,qcom_media,pdk" remote="lineage" revision="lineage-15.0-caf-8996" />
+  <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" groups="qcom,qcom_media,pdk" remote="lineage" revision="staging/lineage-15.1-caf-8996" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" groups="qcom,qcom_power" remote="lineage" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="lineage" />
   <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="lineage" revision="lineage-15.0-caf" />
@@ -574,7 +580,6 @@
   </project>
   <!-- FINISH LINEAGE -->
 
-  
   <!--Palm ROM-->
   <project name="palmrom/AromaInstaller" path="aroma" remote="github" revision="oreo-op5" />
   <project name="palmrom/android_device_oneplus_cheeseburger" path="device/oneplus/cheeseburger" remote="github" revision="oreo-8.1" />
@@ -583,7 +588,6 @@
   <project name="LiquidRemix/android_kernel_oneplus_msm8998" path="kernel/oneplus/msm8998" remote="github" revision="oc-mr1" />
   <project name="LiquidRemix/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="oc-mr1" />
   <project name="LiquidRemix/android_device_oppo_common" path="device/oppo/common" remote="github" revision="oc-mr1" />
-  
-
+ 
 
 </manifest>
