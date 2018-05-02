@@ -26,7 +26,9 @@
 	
 	<!--Vendors-->
 	<remove-project name="ResurrectionRemix/android_vendor_resurrection" path="vendor/rr" />
-	<project path="vendor/rr" name="palmrom/android_vendor_resurrection" remote="github" revision="palm-8.1" />
+	<project path="vendor/rr" name="palmrom/android_vendor_resurrection" remote="github" revision="palm-8.1">
+		<copyfile src="build.sh" dest="build.sh" />
+	</project>
 	
 	
 	
