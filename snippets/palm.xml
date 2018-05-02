@@ -10,6 +10,11 @@
 	<!--Palm pure projects-->
 	<project path="vendor/oneplus" name="palmrom/proprietary_vendor_oneplus" remote="github" revision="palm-8.1" />
 	
+	<!--Vendors-->
+	<remove-project name="ResurrectionRemix/android_vendor_resurrection" path="vendor/rr" />
+	<project path="vendor/rr" name="palmrom/android_vendor_resurrection" remote="github" revision="palm-8.1" />
+	
+	
 	
 	
 </manifest>
