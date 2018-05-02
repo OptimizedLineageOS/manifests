@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/palmrom/manifests/opt-cm-14.1/palm.png">
+<img src="https://raw.githubusercontent.com/palmrom/manifests/palm-7.1/palm.png">
 
 Palm ROM project
 ---------------
