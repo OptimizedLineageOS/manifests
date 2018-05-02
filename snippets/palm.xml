@@ -8,7 +8,7 @@
 	<project path="kernel/oneplus/msm8998" name="lineageos/android_kernel_oneplus_msm8998" remote="github" revision="lineage-15.1" />
 	
 	<!--Palm pure projects-->
-	<project path="vendor/oneplus" name="palmrom/proprietary_vendor_oneplus" remote="github" revision="oreo-8.1" />
+	<project path="vendor/oneplus" name="palmrom/proprietary_vendor_oneplus" remote="github" revision="palm-8.1" />
 	
 	
 	
