@@ -564,6 +564,9 @@
 
   <include name="snippets/lineage.xml" />
   <include name="snippets/rr.xml" />
+  
+  <!--Palm ROM-->
+  <include name="snippets/palm.xml" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
