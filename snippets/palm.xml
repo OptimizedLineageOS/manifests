@@ -11,7 +11,7 @@
 	<project path="vendor/oneplus" name="palmrom/proprietary_vendor_oneplus" remote="github" revision="palm-8.1" />
 	
 	<!--Build-->
-	<remove-project name="ResurrectionRemix/android_build" path="build/make" />
+	<remove-project name="android_build" path="build/make" />
 	<project path="build/make" name="palmrom/android_build" remote="github" revision="palm-8.1">
     		<copyfile src="core/root.mk" dest="Makefile" />
     		<linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
