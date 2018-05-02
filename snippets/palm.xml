@@ -48,7 +48,7 @@
   <!--Vendors-->
   <remove-project name="LineageOS/android_vendor_cm" path="vendor/cm" />
   <project path="vendor/cm" name="Palmrom/android_vendor_cm" remote="github" revision="palm-7.1" />
-  <project path="vendor/jdc" name="Palmrom/android_vendor_jdc" remote="github" revision="palm-7.1" >
+  <project path="vendor/palm" name="Palmrom/android_vendor_palm" remote="github" revision="palm-7.1" >
      <copyfile src="build.sh" dest="build.sh" />
   </project>
   
