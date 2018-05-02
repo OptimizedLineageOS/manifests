@@ -9,7 +9,6 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="android" name="ResurrectionRemix/platform_manifest" revision="oreo" remote="github" />
   <project path="vendor/rr" name="ResurrectionRemix/android_vendor_resurrection" remote="github" revision="oreo" />
   <project path="frameworks/base" name="ResurrectionRemix/android_frameworks_base" remote="github" revision="oreo" />
   <project path="packages/apps/Settings" name="ResurrectionRemix/Resurrection_packages_apps_Settings" remote="github" revision="oreo" />
