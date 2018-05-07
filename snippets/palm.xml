@@ -31,6 +31,7 @@
 	<project path="vendor/rr" name="palmrom/android_vendor_resurrection" remote="github" revision="palm-8.1" />
 	<project path="vendor/palm" name="palmrom/android_vendor_palm" remote="github" revision="palm-8.1" >
 		<copyfile src="build.sh" dest="build.sh" />
+	<project path="aroma" name="Creeper36/AromaInstaller" remote="github" revision="oreo-op5" />
 	</project>
 	
 	
